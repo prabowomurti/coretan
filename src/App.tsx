@@ -27,7 +27,7 @@ const components: Required<TLUiComponents> = {
 function App() {
 	return (
 		<div style={{ position: 'fixed', inset: 0 }}>
-			<Tldraw components={components} />
+			<Tldraw components={components} persistenceKey='azarine123'/>
 		</div>
 	)
 }
